@@ -4,11 +4,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Account acc = new Account(367, "Vitor", 1450.60);
-        System.out.printf("Nome: %s, n da conta: %d, saldo: %.2f%n", acc.getHolder(), acc.getNumber(), acc.getBalance());
-        acc.withdraw(100.0);
-        System.out.printf("Nome: %s, n da conta: %d, saldo: %.2f%n", acc.getHolder(), acc.getNumber(), acc.getBalance());
-        System.out.println();
         SavingsAccount acc1 = new SavingsAccount(667, "Anna Giulia", 3420.4, 0.2);
         System.out.printf("Nome: %s, n da conta: %d, saldo: %.2f%n", acc1.getHolder(), acc1.getNumber(), acc1.getBalance());
         acc1.withdraw(20.0);
